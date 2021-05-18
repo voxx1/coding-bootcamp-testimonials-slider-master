@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.wrapper {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+#card-photo1 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.user {
+    height: 240px;
+    left: 15%;
+    position: absolute;
+    border-radius: 1rem;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+
+}
+
+
+.bg {
+    height: 290px;
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+}
+
+#icon-prev {
+    width: 30px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 1rem 0px 0px 1rem;
+    left: 41%;
+    top: 86%;
+    background-color: white;
+}
+
+#icon-next {
+    width: 30px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 0px 1rem 1rem 0px;
+    right: 43%;
+    top: 86%;
+    height: 35px;
+    background-color: white;
+}
+.btn {
+    cursor: pointer;
+}
+
+#card-text1 {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.quote {
+    position: absolute;
+    height: 55px;
+    width: 50px;
+    right:44%;
+    bottom: 76%;
+}
+
+
+#card-text1 p {
+    font-weight: 300;
+}
+
+#card-text1 span {
+    font-weight: 300;
+    color: hsl(240, 18%, 77%);
+}
+
+
+#card-photo2 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#card-text2 {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+#card-text2 p {
+    font-weight: 300;
+}
+
+#card-text2 span {
+    font-weight: 300;
+    color: hsl(240, 18%, 77%);
+}
+.card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+}
+
+
+@media (min-width: 960px) {
+
+
+    .wrapper {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .container {
+        display: flex;
+        width: 1200px;
+        margin-top: 200px;
+        margin-right: 100px;
+    }
+
+    .card {
+        flex-direction: row-reverse;
+    }
+
+    .card-photo {
+        width: 400px;
+    }
+    .user {
+        height: 310px;
+        left: 10%;
+    }
+    .bg {
+    height: 400px;
+    right: 15%;
+    }
+    #card-text1 {
+        width: 50%;
+        padding-top: 120px;
+        font-size: 25px;
+        text-align: left;
+    }
+    #card-text1 p {
+        margin-bottom: 20px;
+    }
+    #card-text2 {
+        width: 50%;
+    }
+    #icon-prev {
+        left:15%;
+    }
+    #icon-next {
+        left: 19%;
+    }
+
+    #card-text2 {
+        width: 50%;
+        padding-top: 120px;
+        font-size: 25px;
+        text-align: left;
+    }
+    #card-text2 p {
+        margin-bottom: 20px;
+    }
+    .info {
+        display: flex;
+        flex-direction: row;
+    }
+    .info h4 {
+        margin-right: 15px;
+    }
+    .info span {
+        font-weight: 700;
+    }
+    }
+    .quote {
+        height: 85px;
+        width: 110px;
+        right:68%;
+        bottom: 66%;
+    }
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
