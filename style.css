@@ -54,7 +54,7 @@ body {
     position: relative;
 }
 
-#icon-prev {
+.icon-prev {
     width: 30px;
     position: absolute;
     padding: 10px;
@@ -64,7 +64,7 @@ body {
     background-color: white;
 }
 
-#icon-next {
+.icon-next {
     width: 30px;
     position: absolute;
     padding: 10px;
@@ -174,10 +174,10 @@ body {
     #card-text2 {
         width: 50%;
     }
-    #icon-prev {
+    .icon-prev {
         left:15%;
     }
-    #icon-next {
+    .icon-next {
         left: 19%;
     }
 
